@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/inicio.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
     <title>Sistemas de Informacion</title>
 </head>
 <body>
@@ -42,5 +42,61 @@
         </article>
     </section>
     <div style="clear: both"></div>
+
+    <section class="TPS">
+        <h2>Transaction Processing System</h2>
+        <article>
+            <p>Su principal objetivo es llevar el registro de actividades y operaciones en una empresa 
+               evitando su perdida y/o corrupción ante fallos. Por ejemplo: depositos en efectivo, 
+               pago de recibos, transferencias monetarias, flujos de producción, registros de empleados, 
+               envios, entre otros, llamados transacciones.</p>
+            <br>
+            <p>Una transacción es un intercambio de información que es reflejada en un medio persistente 
+               (por ejemplo un DBMS), y debe contar con las siguientes caracteristicas:</p>
+        </article>
+
+        <section class="caracteristicas">
+            <article class="container">
+                <section class="box">
+                    <img class="icon" src="./images/atomico.jpg" alt="Atomico">
+                    <article class="content">
+                        <h3>Atomicidad</h3>
+                        <p>Se refiere a que la transacción debe ser completada en su totalidad o
+                        en su defecto debe realizarse una restauración del proceso a su
+                        estado original</p>
+                    </article>
+                </section>
+                
+                <section class="box">
+                    <img class="icon" src="./images/consistencia.jpg" alt="Consistencia">
+                    <article class="content">
+                        <h3>Consistencia</h3>
+                        <p>Se debe salvaguardar la integridad de la información cumpliendo reglas relacionales 
+                        y de negocio. El sistema debe ser capaz de identificar transacciones que vayan en
+                        contra este principio y debe realizar una operación de roll-back.</p>
+                    </article>
+                </section>
+    
+                <section class="box">
+                        <img class="icon" src="./images/transaccion.jpg" alt="Aislamiento">
+                    <article class="content">
+                        <h3>Aislamiento</h3>
+                        <p>Cada transacción debe ser considerada independiente de otras transacciones. 
+                        Esto permite que el sistema realice transacciones recurrentes y simultaneas.</p>
+                    </article>
+                </section>
+    
+                <section class="box">
+                        <img class="icon" src="./images/durabilidad.jpg" alt="Durabilidad">
+                    <article class="content">
+                        <h3>Durabilidad</h3>
+                        <p>La transacciones y sus operaciones internas deben ser almacenadas a un medio 
+                        persistente, hasta el momento que otra operación o transacción cambie el estado de 
+                        los datos. En todo momento las transacciones aisladas pueden ser consultadas.</p>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </section>
 </body>
 </html>
