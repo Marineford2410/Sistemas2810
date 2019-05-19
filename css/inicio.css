@@ -71,3 +71,61 @@ header{
     text-align: center;
     font-size: 50px;
 }
+
+section.definicion{
+    background: #C2D8F0;
+    padding: 50px 10%;
+}
+
+section img {
+    height: 250px;
+}
+
+section.definicion article {
+    text-align: center;
+    padding: 12px 470px 12px 0px;
+}
+
+section.definicion article h2 {
+    padding: 25px 0;
+    color: #001a36;
+    font-size: 1.8em;
+}
+
+section.definicion article p {
+    padding: 25px 30px;
+    font-size: 1.2em;
+}
+
+section.implementacion{
+    background: #E2E3E5;
+    padding: 30px 18%;
+}
+
+section.implementacion article {
+    text-align: center;
+    padding: 30px 0px 30px 350px;
+}
+
+section.implementacion article h2 {
+    padding: 25px 0;
+    color: #000000;
+    font-size: 1.8em;
+}
+
+section.implementacion article p {
+    padding: 25px 30px;
+}
+
+section.implementacion img {
+    border-radius: 45%;
+}
+
+.derecha {
+    float: right;
+}
+
+.izquierda {
+    float: left;
+}
+
