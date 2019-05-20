@@ -310,7 +310,7 @@ section.implementacion img {
     font-family: 'Poppins', sans-serif;
 }
 
-.CRM section h3 {
+.CRM section h3.tit {
     text-align: center;
     margin-top: 10px;
     font-size: 1.5em;
