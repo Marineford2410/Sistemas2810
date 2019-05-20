@@ -275,3 +275,139 @@ section.implementacion img {
     padding: 0 15%;
     font-family: 'Lato', sans-serif;
 }
+
+.ERP {
+    background: #16B09A;
+    padding: 50px 15%;
+    margin: 0;
+}
+
+.ERP article {
+    padding-right: 250px;
+}
+
+.ERP article h2 {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.ERP img {
+    margin-top: 18px;
+    height: 270px;
+}
+
+.ERP article p {
+    color: #fafafa;
+}
+
+.CRM section h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CRM section h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CRM section p.desc {
+    text-align: justify;
+    font-size: 1em;
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.componentes {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.caja {
+    position: relative;
+    width: 263px;
+    height: 350px;
+    margin: 15px;
+    background: #000000;
+    box-shadow: 0 10px 10px rgba(95, 95, 95, 0.5);
+}
+
+.caja .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caja .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.caja:hover .imgBx img {
+    opacity: 0;
+}
+
+.caja .contenido {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.caja:hover .contenido {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+}
+
+.caja .contenido h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.caja .contenido p {
+    margin: 10px 0 0 0;
+    opacity: 0;
+    /*line-height: 1.2em;*/
+    transition: 0.5s;
+    text-align: center;
+}
+
+.caja:hover .contenido p {
+    opacity: 1;
+    transition-delay: 0.25s;
+    color: #000000;
+}
